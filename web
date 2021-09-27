@@ -1,0 +1,6 @@
+sudo mv web_package.json  /package.json 
+sudo mv web_package-lock.json  /package-lock.json 
+sudo npm install 
+sudo mv package.json  /web_package.json 
+sudo mv package-lock.json  /web_package-lock.json 
+sudo npm cache clean --force
